@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Simon says</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="popup">
+    <p class="welcome">
+      Hi,buddy👋 Welcome to Simon game.
+      <br><br>
+      How to Play:  There are four color blocks corresponding to the color green 🟢, red 🔴, yellow 🟡 and blue 🔵. To start, press the button below. Click on the color that blinks. After each successful round, the game will add another color to the sequence. You have to meomorize the sequence in right order and have to click the colors accorading to the right sequence to clear the current level. If you get the sequence right then you'll get promoted to the next level and game will continue in this way. Or,if you get the sequence wrong and click on any wrong color in the order then, game will be over and you have to press the button below to restart the game.
+      <br><br>
+      Good luck ✌️ and thanks for playing 😊.
+      <br>
+      <br>
+      <br>
+      [Made with ❤️ by Arnab (Special thanks to Dr.Angela Yu and my buddy Priyadarsi)]
+    </p>
+    <button class="close">Let's go</button>
+    </div>
+  
+  <div class="wrapper">
+    <h1 id="level-title">Press The Button Below to Start</h1>
+    <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+      </div>
+      
+      <button id="stBtn">press</button>
+    </div>
+
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
