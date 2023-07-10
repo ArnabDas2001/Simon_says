@@ -8,3 +8,6 @@
  click on any wrong color in the order then, the game will be over and you have to press the button below to restart the game.
 
  
+ Click the link below and drive to the game 👇
+
+ https://arnabdas2001.github.io/Simon_says/
